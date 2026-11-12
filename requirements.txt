@@ -1,0 +1,4 @@
+torch>=2.4
+transformers>=5.0
+numpy
+pandas  # only for scripts/build_train_data.py

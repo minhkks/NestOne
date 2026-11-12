@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nestone"
+version = "0.1.0"
+description = "Nested prefix training and a hidden-state stop gate for System One decision models"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+dependencies = ["torch>=2.4", "transformers>=5.0", "numpy"]
+
+[project.optional-dependencies]
+data = ["pandas", "pyarrow"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["nestone"]

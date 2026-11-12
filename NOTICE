@@ -1,0 +1,7 @@
+NestOne
+Copyright the NestOne authors.
+
+This product includes software from Intern-Decision (Apache License 2.0):
+  nestone/schema.py  -- decision schema and prompt compiler (src/inputs/schema.py), unmodified.
+The benchmark suites are read from Intern-Decision's benchmarks/accuracy-v1 bundle, which is
+not redistributed here; see that repository for its licenses.
